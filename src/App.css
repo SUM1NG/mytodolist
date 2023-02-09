@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.input-form-makeTodo {
+  margin-bottom: 50px;
+}
+
+.todo-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+input {
+  width: 500px;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.submit-button {
+  color: white;
+  background-color: #6698cb;
+  font-size: 30px;
+  height: 50px;
+  width: 200px;
+  border: 1px solid #6698cb;
+  border-radius: 15px;
+}
+
+.done-todo-icon {
+  color: green;
+}
+
+.todolist {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.todo-container {
+  width: 500px;
+  height: 500px;
+}
+
+.done-todo,
+.not-done-todo {
+  width: 100%;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.done-todo .todo-content {
+  font-style: italic;
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+.todo-content {
+  margin: 0px 20px;
+}
+
+.suming-logo {
+  font-size: 35px;
+}
+
+.hamberger {
+  font-size: 30px;
+}
+
+.footer-logo {
+  font-size: 20px;
+}

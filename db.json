@@ -1,0 +1,24 @@
+{
+  "dummyTodos": [
+    {
+      "content": "뭐하십니까?",
+      "done": true,
+      "id": 2
+    },
+    {
+      "content": "리액트 공부하기",
+      "done": true,
+      "id": 4
+    },
+    {
+      "content": "집가서 잠자기",
+      "done": false,
+      "id": 5
+    },
+    {
+      "content": "주무십니까?",
+      "done": false,
+      "id": 6
+    }
+  ]
+}
